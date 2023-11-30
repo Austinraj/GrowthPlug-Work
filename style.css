@@ -68,19 +68,20 @@
     margin-top: 140px;
     height:  500px;
     width: 100% ;
-    /* opacity: ; */
+    /* opacity:0.6; */
 }
 
+.button-style:visited{
+    background-color: white;
+    color: black !important;
+}
 .button-style:hover{
     background-color: #337ab7;
     color: whitesmoke !important;
 }
-.a-link-div{
-    text-decoration: none;
 
-}
 .a-link:visited{
-    color: rgb(15, 13, 13);
+    color: rgb(14, 1, 1);
 }
 .a-link:hover{
     color: #337ab7;
@@ -124,9 +125,63 @@
     background: linear-gradient(132deg, #278cc94a, #ffffff4a, #278cc94a) !important;
     position: relative;
 }
+/* .cards-img{ */
+    /* position: absolute; */
+    /* border-radius: 50%;
+    background-color: var(--w1vymkkz-6);
 
+} */
+
+
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    border-radius: 50%;
+    background-color: #278CC9;
+    color: black;
+  }
+  
+  .flip-card-back {
+    border-radius: 8px;
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* over viwe */
 .box-sty{
-    margin: 10px 500px;
+    margin: 0px 185px;
+    /* border-radius: 50%; */
 }
 .avatar {
     vertical-align: middle;
@@ -137,3 +192,17 @@
     border-radius: 50%;
 }
 
+/* footer link */
+.b-link:visited{
+    color: #278CC9 ;
+
+    
+}
+
+.b-link:hover{
+    color: black;
+}
+
+#images{
+    background: url("./images/images.jpg") left top repeat;
+}
