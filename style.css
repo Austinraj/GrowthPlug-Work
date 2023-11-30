@@ -126,14 +126,14 @@
 }
 
 .box-sty{
-    margin: 10px 350px;
+    margin: 10px 500px;
 }
 .avatar {
     vertical-align: middle;
     margin-top: 20px;
+    margin-right: 20px;
     width: 90px;
     height: 50px;
     border-radius: 50%;
 }
 
-    
