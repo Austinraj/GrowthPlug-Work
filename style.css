@@ -1,0 +1,139 @@
+ body .icon{
+    position: relative;
+    left: 1460px;
+    bottom: 0px;
+    filter: none;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+    padding: 7px;
+    transition: .1s;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.icon-div{
+   position: fixed;
+   bottom: 0px;
+}
+
+
+.person{
+    height: 35px;
+    width: 35px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: 0 0;
+    border: none;
+}
+
+/* .image-div{
+    position: relative;
+}
+.logo-div{
+    position: absolute;
+}*/
+
+.logo-image{
+    height: 70px;
+    width: 200;
+    /* position: fixed; */
+    top: 0;
+} 
+
+.nav-div{
+    margin-top: 90px !important;
+}
+.container-image {
+    position: relative;
+    text-align: center;
+    color: rgb(21, 27, 30);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-image{
+    margin-top: 140px;
+    height:  500px;
+    width: 100% ;
+    /* opacity: ; */
+}
+
+.button-style:hover{
+    background-color: #337ab7;
+    color: whitesmoke !important;
+}
+.a-link-div{
+    text-decoration: none;
+
+}
+.a-link:visited{
+    color: rgb(15, 13, 13);
+}
+.a-link:hover{
+    color: #337ab7;
+}
+/* card style */
+.card-div{
+    padding: 4% 0;
+    background: linear-gradient(180deg, #278CC9, #ffffff);
+}
+/* Dr image style */
+
+.DR-image{
+    height: 180px;
+    object-fit:cover;
+}
+
+/* DR card style */
+.cards{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+.cards:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
+/* navbar */
+.nav-ul:hover{
+    background-color: white;
+    color: #278CC9 !important;
+}
+
+/*  service */
+.service-div{
+    width: 100%;
+    padding: 6% 0 !important;
+    background: linear-gradient(132deg, #278cc94a, #ffffff4a, #278cc94a) !important;
+    position: relative;
+}
+
+.box-sty{
+    margin: 10px 350px;
+}
+.avatar {
+    vertical-align: middle;
+    margin-top: 20px;
+    width: 90px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+    
