@@ -20,8 +20,8 @@ body .icon{
 
 .icon-div{
    position: fixed;
-   /* right: 3px;  */
-   /* bottom: 0px;  */
+   right: 3px;  
+    bottom: 0px; 
 }
 
 
@@ -218,6 +218,7 @@ body .icon{
 }
 
 #images{
+    padding: 20px;
     background: url("./images/images.jpg") left top repeat;
     border-radius: 15px;
 }
@@ -259,4 +260,15 @@ body .icon{
     width: 100%;
     border-radius: 10px;
     margin-top: 5px;
+}
+
+.texts{
+    margin-inline-start: 90px;
+}
+.texts3{
+    margin-inline-start: 40px;
+}
+
+.s-font{
+    font-family: 'Montserrat' !important;
 }
