@@ -89,6 +89,7 @@
 /* card style */
 .card-div{
     padding: 4% 0;
+
     background: linear-gradient(180deg, #278CC9, #ffffff);
 }
 /* Dr image style */
@@ -173,7 +174,7 @@
   
   .flip-card-back {
     border-radius: 8px;
-    background-color: #2980b9;
+    background-color: #278CC9;
     color: white;
     transform: rotateY(180deg);
   }
@@ -183,6 +184,9 @@
     margin: 0px 185px;
     /* border-radius: 50%; */
 }
+
+
+
 .avatar {
     vertical-align: middle;
     margin-top: 20px;
@@ -191,6 +195,9 @@
     height: 50px;
     border-radius: 50%;
 }
+
+
+
 
 /* footer link */
 .b-link:visited{
@@ -205,4 +212,29 @@
 
 #images{
     background: url("./images/images.jpg") left top repeat;
+}
+
+/* font style */
+.font{
+    font-family:'Cinzel', sans-serif !important;
+}
+
+.card-div h5{
+    font-family:'Cinzel', sans-serif !important;
+
+}
+.sty-h-tag{
+    color: #278CC9; 
+    font-family:'Cinzel', sans-serif !important;
+    font-weight: 500;
+}
+
+.styl-p-tag{
+    font-family: 'Montserrat' !important; 
+    font-weight: 500 !important; 
+    text-align: justify;
+}
+
+.styls-h-tag{
+    font-family: 'Cinzel', sans-serif !important;
 }
