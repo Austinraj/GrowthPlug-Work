@@ -1,7 +1,6 @@
- body .icon{
+
+body .icon{
     position: relative;
-    left: 1460px;
-    bottom: 0px;
     filter: none;
     cursor: pointer;
     background: white;
@@ -21,7 +20,8 @@
 
 .icon-div{
    position: fixed;
-   bottom: 0px;
+   /* right: 3px;  */
+   /* bottom: 0px;  */
 }
 
 
@@ -52,8 +52,8 @@
 .nav-div{
     margin-top: 90px !important;
 }
-.container-image {
-    position: relative;
+.image {
+    position: absolute;
     text-align: center;
     color: rgb(21, 27, 30);
 }
@@ -64,12 +64,14 @@
     transform: translate(-50%, -50%);
 }
 
-.banner-image{
-    margin-top: 140px;
-    height:  500px;
-    width: 100% ;
-    /* opacity:0.6; */
+.banner-div{
+    margin-top: 143px;
 }
+ .banner-image{
+    height:  500px;
+    width: 100%;
+ } 
+
 
 .button-style:visited{
     background-color: white;
@@ -174,6 +176,7 @@
   
   .flip-card-back {
     border-radius: 8px;
+    height: 240px;
     background-color: #278CC9;
     color: white;
     transform: rotateY(180deg);
@@ -188,12 +191,16 @@
 
 
 .avatar {
-    vertical-align: middle;
+    /* vertical-align: middle; */
     margin-top: 20px;
     margin-right: 20px;
     width: 90px;
     height: 50px;
     border-radius: 50%;
+}
+.avatar-image{
+    width: 90px;
+    height: 50px;
 }
 
 
@@ -212,6 +219,7 @@
 
 #images{
     background: url("./images/images.jpg") left top repeat;
+    border-radius: 15px;
 }
 
 /* font style */
@@ -230,6 +238,7 @@
 }
 
 .styl-p-tag{
+    
     font-family: 'Montserrat' !important; 
     font-weight: 500 !important; 
     text-align: justify;
@@ -237,4 +246,17 @@
 
 .styls-h-tag{
     font-family: 'Cinzel', sans-serif !important;
+}
+
+.image-sm{
+    
+    height: 80px;
+    width: 100%;
+}
+
+.gallery-image{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
 }
